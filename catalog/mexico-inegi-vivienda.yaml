@@ -1,0 +1,44 @@
+id: mexico-inegi-vivienda
+type: dataset
+title: INEGI Vivienda (Mexico housing statistics)
+description: |
+  INEGI's housing topic: counts of occupied private dwellings, their construction characteristics, occupants, services and household goods, drawn from Mexico's population and housing censuses, counts and the 2025 intercensal survey.
+publisher: Instituto Nacional de Estadística y Geografía (INEGI)
+jurisdiction:
+  scope: national
+  country: MX
+topics:
+- housing-stock
+- dwelling-characteristics
+- census
+- mexico
+- latin-america
+source:
+  canonical_url: https://www.inegi.org.mx/temas/vivienda/
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- xlsx
+- csv
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: Mexico (national, state, municipal)
+  temporal: 1990-2025 (censuses, counts and intercensal surveys)
+  cadence: irregular
+license: INEGI Términos de Libre Uso de la Información (free use with attribution)
+attribution: "Fuente: INEGI, <nombre del producto>"
+notes: |
+  Human-verified 2026-10-31 in headless Chromium: HTTP 200, page title "Vivienda". A plain curl with a browser user agent was redirected to a Radware bot-validation page (validate.perfdrive.com), so this host needs a browser. The page reads "Información sobre el volumen de las viviendas del país, sus características de construcción, así como el número de sus ocupantes". It showed "Viviendas particulares habitadas 39,699,242" for 2025, with a chart back to 1990, and noted that the Encuesta Intercensal 2025 "no considera a las viviendas colectivas ... y a la población sin vivienda".
+  Licence checked 2026-10-31: https://www.inegi.org.mx/inegi/terminos.html returned 403 to headless Chromium this session but was read via WebFetch. Under "Del libre uso de la información del INEGI" it allows users to copy, distribute, adapt and "explotar comercialmente la información", and requires "Debe otorgar los créditos correspondientes al INEGI como autor", citing as "Fuente: INEGI, nombre del producto de donde se extrae la información". The formats and INEGI's indicator API weren't checked. Rents, prices and housing finance (e.g. SHF or CONAVI) are not covered by this entry.
