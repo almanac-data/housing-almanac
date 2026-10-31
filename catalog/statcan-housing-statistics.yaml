@@ -1,0 +1,45 @@
+id: statcan-housing-statistics
+type: dataset
+title: Statistics Canada Housing Statistics
+description: |
+  Statistics Canada's housing subject hub: the Canadian Housing Statistics Program (residential properties and their owners), Canadian Housing Survey, building permits, residential and new housing price indexes, housing costs and affordability, and vacancy data.
+publisher: Statistics Canada
+jurisdiction:
+  scope: national
+  country: CA
+topics:
+- housing-stock
+- house-prices
+- building-permits
+- affordability
+- canada
+source:
+  canonical_url: https://www.statcan.gc.ca/en/subjects-start/housing
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- xml
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: Canada (national, provinces and territories, lower geographies by program)
+  temporal: varies by program
+  cadence: irregular
+license: Statistics Canada Open Licence
+attribution: "Source: Statistics Canada, <name of product>, <reference date>. Reproduced and distributed on an \"as is\" basis with the permission of Statistics Canada."
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page "Housing statistics" offers "Dwelling characteristics, Housing costs and affordability, Housing price indexes, Housing and living arrangements, Residential construction and investment, Vacancy rates". Its key indicators showed "Homeownership rate - Canada (2021) 66.5%" and "Shelter - Canada (September 2026) 1.8% (12-month change)". It describes the Canadian Housing Statistics Program as providing "comprehensive information on residential properties and their owners". The CHSP survey page on www150.statcan.gc.ca (surveys/5257) and the www150 data tables could not be reached this session (connection reset / 502 through the proxy), so this entry uses the subject hub on www.statcan.gc.ca.
+  Licence checked 2026-10-31: https://www.statcan.gc.ca/en/terms-conditions/open-licence grants "a worldwide, royalty-free, non-exclusive licence to: use, reproduce, publish, freely distribute, or sell the Information", with the acknowledgment "Source: Statistics Canada, name of product, reference date. Reproduced and distributed on an "as is" basis with the permission of Statistics Canada." It is a custom open licence, not CC. Formats and the Web Data Service API are assumed from StatCan's usual table delivery and weren't checked. CMHC data were deliberately not folded in; CMHC is a separate Crown corporation with its own terms.
