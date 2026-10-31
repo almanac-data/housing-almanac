@@ -1,9 +1,9 @@
 {
   "name": "Housing Almanac",
   "description": "An open, versioned index of public housing data.",
-  "count": 2,
+  "count": 3,
   "by_status": {
-    "live": 2
+    "live": 3
   },
   "entries": [
     {
@@ -55,6 +55,55 @@
       "license": "CC-BY-4.0 (ABS website copyright notice)",
       "attribution": "Australian Bureau of Statistics, Building Approvals, Australia",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page \"Building Approvals, Australia\" lists \"Latest release Building Approvals, Australia, August 2026\", with monthly previous releases and future release dates (the October 2026 release due 08/12/2026). The ABS \"Total Value of Dwellings\" release (June Quarter 2026 latest), which carries mean dwelling prices, is a candidate for a separate entry.\nLicence checked 2026-10-31: https://www.abs.gov.au/website-privacy-copyright-and-disclaimer states \"All material presented on this website is provided under a Creative Commons Attribution 4.0 International licence, with the exception of\" the Coat of Arms, ABS logo, trade marks, \"unit record data (microdata)\" and third-party content. This is a site-wide notice, not one specific to this release. The XLSX time-series format is assumed, and the ABS Data API and the small-area detail weren't checked.\n"
+    },
+    {
+      "id": "census-building-permits-survey",
+      "type": "dataset",
+      "title": "Census Building Permits Survey",
+      "description": "The Census Bureau's survey of new privately-owned residential construction authorized by building permits, published monthly and annually for the nation, regions, states, metropolitan areas, counties and individual permit-issuing places.\n",
+      "publisher": "U.S. Census Bureau",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "building-permits",
+        "construction",
+        "housing-supply"
+      ],
+      "source": {
+        "canonical_url": "https://www.census.gov/construction/bps/index.html"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "txt",
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (national, regions, states, metropolitan areas, counties, permit-issuing places)",
+        "temporal": "varies by geography (2025 annual data latest)",
+        "cadence": "monthly"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Census Bureau, Building Permits Survey",
+      "notes": "Human-verified 2026-10-31: HTTP 200 (curl with a browser user agent and headless Chromium). The page \"Building Permits Survey (BPS)\" says its purpose is \"to provide national, state, and local statistics on new privately-owned\" residential construction, offers files \"in text format\", and says \"Annual data for 2025 was released on May 14, 2026\". It notes that preliminary national and regional permits appear \"in Table 1 of the New Residential Construction report\". New Residential Construction (permits, starts, completions; census.gov/construction/nrc/) was not cataloged separately: the economy-almanac census-economic-indicators entry already names it.\nLicence checked 2026-10-31: I found no explicit licence statement on census.gov; the citation guidance (https://www.census.gov/about/policies/citation.html) asks users to cite the Census Bureau. public-domain is asserted from the Bureau's status as a federal agency (17 U.S.C. 105). The monthly cadence and the XLSX format are assumed and weren't checked.\n"
     },
     {
       "id": "eurostat-housing-database",
