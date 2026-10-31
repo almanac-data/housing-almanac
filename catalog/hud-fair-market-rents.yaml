@@ -1,0 +1,44 @@
+id: hud-fair-market-rents
+type: dataset
+title: HUD Fair Market Rents
+description: |
+  HUD's annual Fair Market Rents — estimates of 40th-percentile gross rents for standard-quality units by bedroom count for every metropolitan area and non-metropolitan county, plus Small Area FMRs by ZIP code — used to set Housing Choice Voucher payment standards and other program rents.
+publisher: U.S. Department of Housing and Urban Development, Office of Policy Development and Research
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- rents
+- rental-housing
+- housing-assistance
+- affordability
+source:
+  canonical_url: https://www.huduser.gov/portal/datasets/fmr.html
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: The FMR and Income Limits API needs a free account and access token; the web pages and files do not.
+  rate_limit: null
+format:
+- xlsx
+- pdf
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (metropolitan areas, non-metropolitan counties, ZIP codes for Small Area FMRs)
+  temporal: varies; fiscal years 2023-2027 shown on the page, older years in the history section
+  cadence: annual
+license: public-domain (US Gov work)
+attribution: U.S. Department of Housing and Urban Development, Fair Market Rents
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page "HUD Fair Market Rents (40th Percentile Rents)" says FMRs "are estimates of 40th percentile gross rents for standard quality units within a metropolitan area or nonmetropolitan county" and take effect "at the start of the federal fiscal year (generally October 1)". The latest set is FY 2027 ("Click Here For FY2027 FMRs"). It announces that FMRs and Income Limits "are now available via an application programming interface (API)", which needs an account and access token (https://www.huduser.gov/portal/dataset/fmr-api.html).
+  Licence checked 2026-10-31: I found no HUD or HUD USER page that states a data licence. The HUD USER disclaimer (https://www.huduser.gov/portal/about/disclaimer.html) and privacy policy carry no copyright statement, and the 'Web Management and Web Policies' footer link now lands on a general HUD page. public-domain is asserted from HUD's status as a federal agency (17 U.S.C. 105), not from a HUD statement. Formats are assumed and weren't checked.
