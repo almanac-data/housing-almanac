@@ -29,9 +29,11 @@ status_since: '2026-10-31'
 status_source: curator
 observed:
   checked: '2026-10-31'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://data.unhabitat.org/
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: global (countries and areas; selected cities)
   temporal: varies by indicator (slum series seen covering 1990-2018)

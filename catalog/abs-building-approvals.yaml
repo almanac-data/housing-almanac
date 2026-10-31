@@ -29,9 +29,11 @@ status_since: '2026-10-31'
 status_source: curator
 observed:
   checked: '2026-10-31'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: Australia (national, states and territories, smaller areas)
   temporal: varies by series (August 2026 latest release)
