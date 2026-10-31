@@ -1,0 +1,43 @@
+id: fhfa-house-price-index
+type: dataset
+title: FHFA House Price Index
+description: |
+  The Federal Housing Finance Agency's repeat-sales house price indexes for single-family homes, from national level down to census divisions, states, metro areas, counties, ZIP codes and census tracts, with data back to the mid-1970s.
+publisher: Federal Housing Finance Agency
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- house-prices
+- repeat-sales-index
+- single-family
+source:
+  canonical_url: https://www.fhfa.gov/data/hpi
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- xlsx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (national, census division, state, metro, county, ZIP code, census tract)
+  temporal: mid-1970s to present
+  cadence: monthly
+license: public-domain (US Gov work)
+attribution: "Source: FHFA House Price Index (FHFA HPI®)"
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page "FHFA House Price Index®" describes "a comprehensive collection of publicly available house price indexes that measure changes in single-family home values based on data that extend back to the mid-1970s from all 50 states and over 400 American cities", using "a weighted, repeat-sales statistical technique". FHFA is an independent federal agency, so its own output is a US Government work. The monthly cadence applies to the headline purchase-only index; other series are quarterly or annual. This wasn't checked per series.
+  Licence checked 2026-10-31: FHFA's Website Privacy Policy (https://www.fhfa.gov/about/fhfa-policies/website-privacy-policy), section "Copyright and Trademark Notice", states "Generally, information and materials produced by Federal agencies, including FHFA, are in the public domain and may be copied and distributed without permission". It excludes "marks for which there is a federal trademark as denoted by the ® symbol". "FHFA HPI®" is such a mark, so the name is trademarked though the data are not. The API terms (https://www.fhfa.gov/about/fhfa-policies/api-terms-of-service) bar implying endorsement and modifying content while still attributing it to FHFA. The formats weren't checked.
