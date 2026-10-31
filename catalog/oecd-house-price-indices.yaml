@@ -1,0 +1,44 @@
+id: oecd-house-price-indices
+type: dataset
+title: OECD National and Regional House Price Indices
+description: |
+  OECD's compilation of official residential property price indices for OECD member and some non-member countries, broken down where possible by region, dwelling type and new versus existing dwellings, with related rent and price-to-income indicators.
+publisher: OECD (Organisation for Economic Co-operation and Development)
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- house-prices
+- residential-property-prices
+- rents
+- international-comparison
+source:
+  canonical_url: https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_RHPI%40DF_RHPI_ALL&df%5Bag%5D=OECD.SDD.TPS
+access:
+  method:
+  - web
+  - api
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- sdmx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: OECD member countries and some non-members; national and regional
+  temporal: varies by country
+  cadence: quarterly
+license: unverified — OECD terms page (oecd.org/en/about/terms-conditions.html) is behind a Cloudflare bot challenge and could not be read
+attribution: OECD, National and regional house price indices (OECD Data Explorer)
+notes: |
+  Human-verified 2026-10-31: HTTP 200 in headless Chromium (the Data Explorer is a JavaScript app). The page reads "National and regional house price indices" and says the dataset includes "RPPI compiled by official statistical agencies following international statistical guidelines. It covers all OECD member countries and some non-member countries." It showed "Last updated: October 30, 2026". The SDMX API at sdmx.oecd.org also answered HTTP 200 and lists this dataflow as OECD.SDD.TPS DSD_RHPI@DF_RHPI_ALL, alongside DF_RHPI_TRANSACTIONS (housing transactions) and OECD.ECO.MPD DF_HOUSE_PRICES (analytical house price indicators).
+  This entry stands in for the OECD Affordable Housing Database, which lives only on www.oecd.org. That host returned a Cloudflare "Performing security verification" page (HTTP 403) to curl, headless Chromium and WebFetch, so the Affordable Housing Database was not cataloged. The canonical URL's square brackets are percent-encoded.
+  Licence checked 2026-10-31: not verified. The Data Explorer footer links its "Terms & conditions" to https://www.oecd.org/en/about/terms-conditions.html, which was blocked as above. I did not read OECD's terms, so no licence is asserted. Download formats are taken from the Data Explorer's Download and Developer API buttons and weren't tested.
