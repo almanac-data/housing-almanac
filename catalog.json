@@ -1,9 +1,9 @@
 {
   "name": "Housing Almanac",
   "description": "An open, versioned index of public housing data.",
-  "count": 5,
+  "count": 6,
   "by_status": {
-    "live": 5
+    "live": 6
   },
   "entries": [
     {
@@ -260,6 +260,56 @@
       "license": "CC-BY-4.0 (Eurostat copyright notice and free re-use of data)",
       "attribution": "Eurostat",
       "notes": "Human-verified 2026-10-31: HTTP 200 (curl and headless Chromium). The page is titled \"Database - Housing - Eurostat\", with the heading \"HOUSING Database\" and tabs for Overview, Database, Visualisations, Publications, Methodology, Census hub and a \"Census dwelling grid\". The dataset tree loads with JavaScript and its list of tables wasn't read, so the specific datasets named in the description (house price index, EU-SILC housing indicators) come from Eurostat's usual structure and weren't checked here. The quarterly cadence applies to the house price index; EU-SILC housing indicators are annual.\nLicence checked 2026-10-31: https://ec.europa.eu/eurostat/help/copyright-notice says \"The copyright for the editorial content of this website, which is owned by the EU, is licensed under the Creative Commons Attribution 4.0 International licence\", and that \"All data published on Eurostat's website can be regarded as belonging to Eurostat for the purpose of their reuse\", with exceptions for data on countries outside the EU, EFTA and candidate countries. The formats, API and bulk download are assumed from other Eurostat entries and weren't checked.\n"
+    },
+    {
+      "id": "fhfa-house-price-index",
+      "type": "dataset",
+      "title": "FHFA House Price Index",
+      "description": "The Federal Housing Finance Agency's repeat-sales house price indexes for single-family homes, from national level down to census divisions, states, metro areas, counties, ZIP codes and census tracts, with data back to the mid-1970s.\n",
+      "publisher": "Federal Housing Finance Agency",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "house-prices",
+        "repeat-sales-index",
+        "single-family"
+      ],
+      "source": {
+        "canonical_url": "https://www.fhfa.gov/data/hpi"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (national, census division, state, metro, county, ZIP code, census tract)",
+        "temporal": "mid-1970s to present",
+        "cadence": "monthly"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "Source: FHFA House Price Index (FHFA HPI®)",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page \"FHFA House Price Index®\" describes \"a comprehensive collection of publicly available house price indexes that measure changes in single-family home values based on data that extend back to the mid-1970s from all 50 states and over 400 American cities\", using \"a weighted, repeat-sales statistical technique\". FHFA is an independent federal agency, so its own output is a US Government work. The monthly cadence applies to the headline purchase-only index; other series are quarterly or annual. This wasn't checked per series.\nLicence checked 2026-10-31: FHFA's Website Privacy Policy (https://www.fhfa.gov/about/fhfa-policies/website-privacy-policy), section \"Copyright and Trademark Notice\", states \"Generally, information and materials produced by Federal agencies, including FHFA, are in the public domain and may be copied and distributed without permission\". It excludes \"marks for which there is a federal trademark as denoted by the ® symbol\". \"FHFA HPI®\" is such a mark, so the name is trademarked though the data are not. The API terms (https://www.fhfa.gov/about/fhfa-policies/api-terms-of-service) bar implying endorsement and modifying content while still attributing it to FHFA. The formats weren't checked.\n"
     }
   ]
 }
