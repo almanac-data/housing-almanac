@@ -1,9 +1,9 @@
 {
   "name": "Housing Almanac",
   "description": "An open, versioned index of public housing data.",
-  "count": 4,
+  "count": 5,
   "by_status": {
-    "live": 4
+    "live": 5
   },
   "entries": [
     {
@@ -155,6 +155,57 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Census Bureau, Current Population Survey/Housing Vacancy Survey",
       "notes": "Human-verified 2026-10-31: HTTP 200 (curl with a browser user agent and headless Chromium). The page says the program \"provides current information on the rental and homeowner vacancy rates, and characteristics of units available for occupancy\" and that \"the rental vacancy rate is a component of the index of leading economic indicators\". It links a \"Latest Quarterly Residential Vacancies and Homeownership Report\", data tables, annual tables and an API section, and warns users to \"exercise caution when interpreting HVS data collected during the COVID-19 pandemic\". The latest quarter's date wasn't read from the page. The economy-almanac census-economic-indicators entry is a Census-wide umbrella and doesn't catalog this program's own page.\nLicence checked 2026-10-31: I found no explicit licence statement on census.gov. The citation guidance (https://www.census.gov/about/policies/citation.html) asks users to \"cite the Census Bureau as the source of the original data\", and the privacy policy carries no copyright notice. public-domain is asserted from the Bureau's status as a federal agency (17 U.S.C. 105). Formats and geographic detail are assumed and weren't checked.\n"
+    },
+    {
+      "id": "cfpb-hmda-data",
+      "type": "dataset",
+      "title": "CFPB Home Mortgage Disclosure Act (HMDA) Data",
+      "description": "Loan-level data on US mortgage applications, originations and denials reported under the Home Mortgage Disclosure Act, published by the CFPB (with the FFIEC) as modified loan/application registers, national snapshot and dynamic datasets, and aggregate reports.\n",
+      "publisher": "Consumer Financial Protection Bureau",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "mortgage-lending",
+        "fair-lending",
+        "home-purchase",
+        "loan-level"
+      ],
+      "source": {
+        "canonical_url": "https://www.consumerfinance.gov/data-research/hmda/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "txt"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (loan level; census tract, county, metro, institution)",
+        "temporal": "2017-present on the CFPB data publication site; earlier years on ffiec.gov",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "Consumer Financial Protection Bureau, HMDA data",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The CFPB page \"Home Mortgage Disclosure Act (HMDA) Data\" says \"Each year, millions of people apply for mortgages. Using HMDA data, we can learn what happened to the vast majority of those applications\". It was last modified Oct. 16, 2026, and links the news item \"2025 HMDA Data on Mortgage Lending Now Available\" (Mar 31, 2026). The data-publication site https://ffiec.cfpb.gov/data-publication/ (HTTP 200, redirects to /data-publication/2025) calls HMDA \"the most comprehensive publicly available information on mortgage market activity\". It offers a weekly-updated \"Dynamic National Loan-Level Dataset\" and a snapshot dataset (\"Data Freeze Date: June 2, 2026\"), and says pre-2017 data are at ffiec.gov. The CFPB landing page is cataloged because the data-publication URL redirects to a different year each release.\nLicence checked 2026-10-31: https://www.consumerfinance.gov/privacy/website-privacy-policy/ states \"Information created by the CFPB is in the public domain and you may reproduce, publish, or otherwise use it without the Bureau's permission. Please consider appropriate citation to the Bureau as the source.\" The released files are compiled from filings by lenders and modified by the CFPB for privacy. The Data Browser API and file formats weren't checked.\n"
     },
     {
       "id": "eurostat-housing-database",
