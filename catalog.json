@@ -43,9 +43,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Australia (national, states and territories, smaller areas)",
@@ -92,9 +94,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.census.gov/construction/bps/index.html",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national, regions, states, metropolitan areas, counties, permit-issuing places)",
@@ -143,9 +147,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.census.gov/housing/hvs/index.html",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national, regions, states, largest metropolitan areas)",
@@ -194,9 +200,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.consumerfinance.gov/data-research/hmda/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (loan level; census tract, county, metro, institution)",
@@ -248,9 +256,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://ec.europa.eu/eurostat/web/housing/database",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "EU member states (plus some EFTA and candidate countries)",
@@ -298,9 +308,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.fhfa.gov/data/hpi",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national, census division, state, metro, county, ZIP code, census tract)",
@@ -348,9 +360,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 202,
+        "final_url": "https://www.huduser.gov/portal/datasets/ahar.html",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national, state, Continuum of Care)",
@@ -399,9 +413,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 202,
+        "final_url": "https://www.huduser.gov/portal/datasets/fmr.html",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (metropolitan areas, non-metropolitan counties, ZIP codes for Small Area FMRs)",
@@ -450,9 +466,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.stat.go.jp/english/data/jyutaku/index.html",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Japan (national, prefectures, municipalities)",
@@ -501,9 +519,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.inegi.org.mx/temas/vivienda/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Mexico (national, state, municipal)",
@@ -551,9 +571,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_RHPI%40DF_RHPI_ALL&df%5Bag%5D=OECD.SDD.TPS",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "OECD member countries and some non-members; national and regional",
@@ -603,9 +625,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.statcan.gc.ca/en/subjects-start/housing",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Canada (national, provinces and territories, lower geographies by program)",
@@ -655,9 +679,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.gov.uk/government/collections/english-housing-survey",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "England",
@@ -705,9 +731,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://data.unhabitat.org/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "global (countries and areas; selected cities)",
