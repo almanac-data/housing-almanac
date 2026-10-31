@@ -1,0 +1,43 @@
+id: un-habitat-urban-indicators-database
+type: dataset
+title: UN-Habitat Urban Indicators Database
+description: |
+  UN-Habitat's global urban data portal, including SDG 11.1.1 series on the proportion and number of urban residents living in slums or informal settlements and inadequate housing, alongside other city- and country-level urban indicators.
+publisher: UN-Habitat (United Nations Human Settlements Programme)
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- slums
+- informal-settlements
+- adequate-housing
+- sdg-11
+- urban
+source:
+  canonical_url: https://data.unhabitat.org/
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- xlsx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: global (countries and areas; selected cities)
+  temporal: varies by indicator (slum series seen covering 1990-2018)
+  cadence: irregular
+license: unverified — no data licence found on the portal; its terms-of-use page requires sign-in and the dataset items checked carry no licence field
+attribution: UN-Habitat, Urban Indicators Database
+notes: |
+  Human-verified 2026-10-31: HTTP 200 (curl and headless Chromium; it is an ArcGIS Hub site that renders its content with JavaScript, so a browser was needed to read it). The page title is "Urban Indicators Database", and the site describes UN-Habitat as mandated "to promote socially and environmentally sustainable towns and cities with the goal of providing adequate shelter for all". The Hub search API returned a "Global Monitoring of Slums" page and Excel items such as "Proportion of Urban Population Living in Slum Households by Country or area 1990 _ 2018 (Percent)" (last modified 2021). I didn't find a newer slum series in the search, so the latest year is not established.
+  Licence checked 2026-10-31: https://data.unhabitat.org/pages/terms-of-use shows "This page may require you to sign in, may not be shared with you or may no longer be available". The ArcGIS item metadata for the slum series has licenseInfo null. A 2015 UN-Habitat news item said the data would be under an open licence, and a third-party page says PDDL 1.0, but I couldn't confirm either on a current UN-Habitat terms page. Formats other than XLSX, an API and the full indicator list weren't checked.
