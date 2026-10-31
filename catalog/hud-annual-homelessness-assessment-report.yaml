@@ -1,0 +1,43 @@
+id: hud-annual-homelessness-assessment-report
+type: dataset
+title: HUD Annual Homelessness Assessment Report (AHAR) and Point-in-Time Counts
+description: |
+  HUD's annual report to Congress on homelessness in the United States, with the January Point-in-Time (PIT) counts and Housing Inventory Count (HIC) data files by Continuum of Care since 2007, and system performance data.
+publisher: U.S. Department of Housing and Urban Development, Office of Policy Development and Research
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- homelessness
+- point-in-time-count
+- shelter
+- housing-inventory
+source:
+  canonical_url: https://www.huduser.gov/portal/datasets/ahar.html
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- xlsx
+- pdf
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (national, state, Continuum of Care)
+  temporal: 2007-present for PIT and HIC data files
+  cadence: annual
+license: public-domain (US Gov work)
+attribution: U.S. Department of Housing and Urban Development, Annual Homelessness Assessment Report
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page describes the AHAR as "a HUD report to the U.S. Congress that provides nationwide estimates of homelessness". It is "based on Homeless Management Information Systems (HMIS) data ..., point-in-time counts of people experiencing homelessness on one day in January, and data about the inventory of shelter and housing". It links "Point-in-Time (PIT) and Housing Inventory Count (HIC) data files (XLSX) since 2007" and "System Performance data files (XLSX) since FY 2015". The latest report seen is "2025 AHAR: Part 1 - PIT Estimates of Homelessness in the U.S." The counts are collected and submitted by local Continuums of Care. Whether HUD contractors helped draft the report wasn't checked.
+  Licence checked 2026-10-31: I found no HUD or HUD USER page that states a data licence. The HUD USER disclaimer (https://www.huduser.gov/portal/about/disclaimer.html) and privacy policy carry no copyright statement, and the 'Web Management and Web Policies' footer link now lands on a general HUD page. public-domain is asserted from HUD's status as a federal agency (17 U.S.C. 105), not from a HUD statement.
