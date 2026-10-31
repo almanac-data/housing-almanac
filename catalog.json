@@ -1,11 +1,61 @@
 {
   "name": "Housing Almanac",
   "description": "An open, versioned index of public housing data.",
-  "count": 1,
+  "count": 2,
   "by_status": {
-    "live": 1
+    "live": 2
   },
   "entries": [
+    {
+      "id": "abs-building-approvals",
+      "type": "dataset",
+      "title": "ABS Building Approvals, Australia",
+      "description": "The Australian Bureau of Statistics' monthly count and value of dwelling units and non-residential building approved, by state, territory and smaller areas — the leading indicator of new housing supply in Australia.\n",
+      "publisher": "Australian Bureau of Statistics",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "AU"
+      },
+      "topics": [
+        "construction",
+        "building-approvals",
+        "housing-supply",
+        "australia",
+        "asia-pacific"
+      ],
+      "source": {
+        "canonical_url": "https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "Australia (national, states and territories, smaller areas)",
+        "temporal": "varies by series (August 2026 latest release)",
+        "cadence": "monthly"
+      },
+      "license": "CC-BY-4.0 (ABS website copyright notice)",
+      "attribution": "Australian Bureau of Statistics, Building Approvals, Australia",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page \"Building Approvals, Australia\" lists \"Latest release Building Approvals, Australia, August 2026\", with monthly previous releases and future release dates (the October 2026 release due 08/12/2026). The ABS \"Total Value of Dwellings\" release (June Quarter 2026 latest), which carries mean dwelling prices, is a candidate for a separate entry.\nLicence checked 2026-10-31: https://www.abs.gov.au/website-privacy-copyright-and-disclaimer states \"All material presented on this website is provided under a Creative Commons Attribution 4.0 International licence, with the exception of\" the Coat of Arms, ABS logo, trade marks, \"unit record data (microdata)\" and third-party content. This is a site-wide notice, not one specific to this release. The XLSX time-series format is assumed, and the ABS Data API and the small-area detail weren't checked.\n"
+    },
     {
       "id": "eurostat-housing-database",
       "type": "dataset",
