@@ -1,9 +1,9 @@
 {
   "name": "Housing Almanac",
   "description": "An open, versioned index of public housing data.",
-  "count": 8,
+  "count": 9,
   "by_status": {
-    "live": 8
+    "live": 9
   },
   "entries": [
     {
@@ -411,6 +411,57 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Department of Housing and Urban Development, Fair Market Rents",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page \"HUD Fair Market Rents (40th Percentile Rents)\" says FMRs \"are estimates of 40th percentile gross rents for standard quality units within a metropolitan area or nonmetropolitan county\" and take effect \"at the start of the federal fiscal year (generally October 1)\". The latest set is FY 2027 (\"Click Here For FY2027 FMRs\"). It announces that FMRs and Income Limits \"are now available via an application programming interface (API)\", which needs an account and access token (https://www.huduser.gov/portal/dataset/fmr-api.html).\nLicence checked 2026-10-31: I found no HUD or HUD USER page that states a data licence. The HUD USER disclaimer (https://www.huduser.gov/portal/about/disclaimer.html) and privacy policy carry no copyright statement, and the 'Web Management and Web Policies' footer link now lands on a general HUD page. public-domain is asserted from HUD's status as a federal agency (17 U.S.C. 105), not from a HUD statement. Formats are assumed and weren't checked.\n"
+    },
+    {
+      "id": "japan-housing-and-land-survey",
+      "type": "dataset",
+      "title": "Housing and Land Survey of Japan",
+      "description": "The Statistics Bureau of Japan's five-yearly sample survey of dwellings and households: housing stock, vacant dwellings, tenure, dwelling structure and condition, and land holdings, for Japan and its prefectures and municipalities.\n",
+      "publisher": "Statistics Bureau of Japan (Ministry of Internal Affairs and Communications)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "JP"
+      },
+      "topics": [
+        "housing-stock",
+        "vacant-dwellings",
+        "tenure",
+        "japan",
+        "asia-pacific"
+      ],
+      "source": {
+        "canonical_url": "https://www.stat.go.jp/english/data/jyutaku/index.html"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "pdf",
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "Japan (national, prefectures, municipalities)",
+        "temporal": "survey years 1998-2023 listed on the English page",
+        "cadence": "irregular"
+      },
+      "license": "PDL-1.0 (Public Data License Version 1.0, Statistics Bureau terms of use; CC-BY-4.0 compatible)",
+      "attribution": "Statistics Bureau of Japan, Housing and Land Survey",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The English page \"Housing and Land Survey\" lists the 2023 Survey (\"Outline of the 2023 Housing and Land Survey of Japan\", sampling and reliability notes, explanation of terms, and \"Survey Results of the Housing and Land Survey (Statistical Tables)\"), then earlier rounds for 2018, 2013, 2008, 2003 and 1998. The survey runs every five years; the schema has no quinquennial value, so cadence is irregular. The statistical tables link to e-Stat, which wasn't opened.\nLicence checked 2026-10-31: https://www.stat.go.jp/english/info/riyou.html says content \"is possible to use ... under the use condition based upon the \"Public Data License (Version 1.0)\" (PDL1.0)\", that it \"may be freely used, copied, publicly transmitted, translated or otherwise modified\" and that \"Commercial use of Content is also permitted\", and that \"numerical data and data in Simple tables, graphs, and so forth are not subject to copyright\". The CC BY 4.0 compatibility is the Japanese government's general statement about PDL 1.0 and wasn't re-read here. The formats are assumed and weren't checked.\n"
     }
   ]
 }
