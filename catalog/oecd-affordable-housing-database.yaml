@@ -1,0 +1,44 @@
+id: oecd-affordable-housing-database
+type: dataset
+title: OECD Affordable Housing Database
+description: |
+  Cross-country indicators on housing markets, housing conditions and affordability, homelessness and housing exclusion, and public policies towards affordable housing (social rental housing, housing allowances, rental regulation), for OECD countries, Key Partners and EU member states.
+publisher: Organisation for Economic Co-operation and Development (OECD)
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- affordability
+- social-housing
+- homelessness
+- housing-policy
+- international-comparison
+source:
+  canonical_url: https://www.oecd.org/en/data/datasets/oecd-affordable-housing-database.html
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- xlsx
+- pdf
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: OECD countries, OECD Key Partners and EU member states (national level)
+  temporal: varies by indicator ("2024 or latest" for most charts; real house price index 1996-2025)
+  cadence: irregular
+license: OECD Terms and Conditions, Data section (any purpose including commercial, with credit to the OECD; third-party restrictions may apply)
+attribution: OECD (year), OECD Affordable Housing Database, https://www.oecd.org/en/data/datasets/oecd-affordable-housing-database.html (accessed on date)
+notes: |
+  Human-verified 2026-11-01: HTTP 200 in headless Chromium (new headless mode, playwright chromium.launch with channel "chromium") after waiting about 20 seconds, on the second of several attempts; other attempts, curl and a plain client got a Cloudflare "Performing security verification" page (403). The vertical needs reachability.headless: true, and even then the check may be intermittent. The page says the AHD "helps countries monitor access to good-quality affordable housing and strengthen the knowledge base for policy evaluation" and "groups indicators along three dimensions: housing market, housing conditions and affordability, and public policies towards affordable housing". It lists indicators HM1.1-HM1.5, HC1.1-HC4.1 (including HC3.1 "People experiencing homelessness and housing exclusion" and HC3.3 "Evictions") and PH1.1-PH7.1, each with a PDF and most with an XLSX file on webfs.oecd.org/Els-com/Affordable_Housing_Database/. Charts are labelled "2024 or latest" and the real house price index runs 1996-2025. It also links OECD country notes on homelessness and housing exclusion. It complements oecd-house-price-indices. I did not open the XLSX files or check the update cadence.
+  Licence checked 2026-11-01: OECD Terms & Conditions (https://www.oecd.org/en/about/terms-conditions.html, read in headless Chromium), section 3 "Data", Permitted Use: "Except where additional restrictions apply as stated above, you can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD by using the citation associated with the relevant Data, or, if no specific citation is available, you must cite the source information using the following format: OECD (year), (dataset name),(data source) DOI or URL (accessed on (date))." The section also warns that "Data may be subject to restrictions beyond the scope of these Terms and Conditions" where third parties own them; many AHD indicators are compiled from national sources and EU-SILC, and I did not check per-indicator source notes. These are OECD's own terms, not a named open licence such as CC BY.
