@@ -32,9 +32,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://www.census.gov/programs-surveys/ahs.html
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States, selected states and selected metropolitan areas
   temporal: 1973 onwards (2023 survey latest released)

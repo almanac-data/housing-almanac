@@ -30,9 +30,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 403
+  final_url: https://www.oecd.org/en/data/datasets/oecd-affordable-housing-database.html
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: OECD countries, OECD Key Partners and EU member states (national level)
   temporal: varies by indicator ("2024 or latest" for most charts; real house price index 1996-2025)
