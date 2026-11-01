@@ -31,9 +31,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 202
+  final_url: https://www.huduser.gov/portal/datasets/cp.html
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States (nation, states, counties, places, minor civil divisions and other summary levels)
   temporal: ACS releases 2006-2008 through 2018-2022, plus older CHAS from the 2000 Census and the 2005-2007 ACS
