@@ -1,0 +1,45 @@
+id: hud-chas
+type: dataset
+title: HUD Comprehensive Housing Affordability Strategy (CHAS) Data
+description: |
+  Custom tabulations of American Community Survey data that HUD receives from the Census Bureau each year, showing housing problems, cost burden and housing needs by household income, especially for low-income households. Local governments use them to plan how to spend HUD funds in their Consolidated Plans.
+publisher: U.S. Department of Housing and Urban Development (HUD), Office of Policy Development and Research
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- affordability
+- cost-burden
+- housing-needs
+- low-income-households
+- united-states
+source:
+  canonical_url: https://www.huduser.gov/portal/datasets/cp.html
+access:
+  method:
+  - web
+  - bulk
+  - api
+  auth_required: false
+  auth_note: The query tool and bulk downloads need no account; the CHAS API needs a free HUD User account and access token.
+  rate_limit: null
+format:
+- csv
+- zip
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (nation, states, counties, places, minor civil divisions and other summary levels)
+  temporal: ACS releases 2006-2008 through 2018-2022, plus older CHAS from the 2000 Census and the 2005-2007 ACS
+  cadence: annual
+license: public-domain (US Gov work)
+attribution: U.S. Department of Housing and Urban Development, Comprehensive Housing Affordability Strategy (CHAS) data
+notes: |
+  Human-verified 2026-11-01: HTTP 200 (curl with a browser User-Agent and headless Chromium; plain curl got HTTP 202, apparently a bot-check response). The page, titled "Comprehensive Housing Affordability Strategy (CHAS) Data and Tables", says: "Each year, the U.S. Department of Housing and Urban Development (HUD) receives custom tabulations of American Community Survey (ACS) data from the U.S. Census Bureau. These data, known as the "CHAS" data ..., demonstrate the extent of housing problems and housing needs, particularly for low income households." Latest release: "On December 23, 2025, HUD released updated CHAS data based on 2018-2022 ACS 5-year estimates." The page notes that Census disclosure avoidance has suppressed some estimates since the 2018 tables. It offers a query tool, a data download tool covering "every ACS release from 2006-2008 through 2018-2022", older 2000 and 2005-2007 CHAS as per-state ZIP files, and a CHAS API (https://www.huduser.gov/portal/dataset/chas-api.html) that needs an access token. I did not open the bulk files, so the CSV format is assumed, and I did not read the HUD User API Terms of Service.
+  Licence checked 2026-11-01: I found no HUD or HUD USER page that states a data licence; the HUD USER disclaimer (https://www.huduser.gov/portal/about/disclaimer.html) has no copyright statement. public-domain is asserted from HUD's status as a federal agency (17 U.S.C. 105), not from a HUD statement. The tabulations are made by the Census Bureau, also a federal agency, for HUD.
