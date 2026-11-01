@@ -1,9 +1,9 @@
 {
   "name": "Housing Almanac",
   "description": "An open, versioned index of public housing data.",
-  "count": 16,
+  "count": 17,
   "by_status": {
-    "live": 16
+    "live": 17
   },
   "entries": [
     {
@@ -57,6 +57,59 @@
       "license": "CC-BY-4.0 (ABS website copyright notice)",
       "attribution": "Australian Bureau of Statistics, Building Approvals, Australia",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page \"Building Approvals, Australia\" lists \"Latest release Building Approvals, Australia, August 2026\", with monthly previous releases and future release dates (the October 2026 release due 08/12/2026). The ABS \"Total Value of Dwellings\" release (June Quarter 2026 latest), which carries mean dwelling prices, is a candidate for a separate entry.\nLicence checked 2026-10-31: https://www.abs.gov.au/website-privacy-copyright-and-disclaimer states \"All material presented on this website is provided under a Creative Commons Attribution 4.0 International licence, with the exception of\" the Coat of Arms, ABS logo, trade marks, \"unit record data (microdata)\" and third-party content. This is a site-wide notice, not one specific to this release. The XLSX time-series format is assumed, and the ABS Data API and the small-area detail weren't checked.\n"
+    },
+    {
+      "id": "census-american-housing-survey",
+      "type": "dataset",
+      "title": "Census American Housing Survey (AHS)",
+      "description": "The most comprehensive national housing survey in the United States, sponsored by HUD and conducted by the Census Bureau since 1973: the size, composition, condition and cost of the housing stock, and the characteristics of the people who live in it, for the nation and major metropolitan areas.\n",
+      "publisher": "U.S. Census Bureau, for the U.S. Department of Housing and Urban Development",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "housing-stock",
+        "housing-quality",
+        "tenure",
+        "housing-costs",
+        "united-states"
+      ],
+      "source": {
+        "canonical_url": "https://www.census.gov/programs-surveys/ahs.html"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "sas",
+        "ascii",
+        "xlsx",
+        "pdf"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States, selected states and selected metropolitan areas",
+        "temporal": "1973 onwards (2023 survey latest released)",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Census Bureau and U.S. Department of Housing and Urban Development, American Housing Survey",
+      "notes": "Human-verified 2026-11-01: HTTP 200 (plain curl and headless Chromium). The page says: \"The AHS is sponsored by the Department of Housing and Urban Development (HUD) and conducted by the U.S. Census Bureau. The survey is the most comprehensive national housing survey in the United States.\" It features the AHS Table Creator and a PUF codebook \"1973 and Beyond\". The About page says the AHS is \"a longitudinal housing unit survey conducted biennially in odd-numbered years, with samples redrawn in 1985, 2015, and 2025. Starting with this new sample, the AHS is shifting to a continuous data collection model\", so cadence is set to irregular for now. The Data page (revised May 20, 2026) lists 2023 as the latest year: the \"AHS 2023 Public Use File (PUF)\", \"downloaded in SAS and ASCII formats\", and 2023 Summary Tables in Table Creator; \"For 1997-2009, Summary Tables are in PDF and/or Excel.\" HUD USER also has an AHS page (https://www.huduser.gov/portal/datasets/ahs.html), which I did not read. I did not open any files.\nLicence checked 2026-11-01: I found no explicit licence statement on census.gov. The citation guidance (https://www.census.gov/about/policies/citation.html) says data users \"should cite the Census Bureau as the source of the original data\". public-domain is asserted from the Census Bureau's status as a federal agency (17 U.S.C. 105), not from a Census statement.\n"
     },
     {
       "id": "census-building-permits-survey",
