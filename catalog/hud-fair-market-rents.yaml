@@ -35,6 +35,13 @@ observed:
   final_url: https://www.huduser.gov/portal/datasets/fmr.html
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261104214452/https://www.huduser.gov/portal/datasets/fmr.html
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-04'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now.'
 coverage:
   spatial: United States (metropolitan areas, non-metropolitan counties, ZIP codes for Small Area FMRs)
   temporal: varies; fiscal years 2023-2027 shown on the page, older years in the history section
