@@ -35,6 +35,13 @@ observed:
   final_url: https://www.consumerfinance.gov/data-research/hmda/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261026130604/https://www.consumerfinance.gov/data-research/hmda/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-26'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 200).'
 coverage:
   spatial: United States (loan level; census tract, county, metro, institution)
   temporal: 2017-present on the CFPB data publication site; earlier years on ffiec.gov
