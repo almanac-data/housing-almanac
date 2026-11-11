@@ -35,6 +35,13 @@ observed:
   final_url: https://www.oecd.org/en/data/datasets/oecd-affordable-housing-database.html
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261103052912/https://www.oecd.org/en/data/datasets/oecd-affordable-housing-database.html
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-03'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: OECD countries, OECD Key Partners and EU member states (national level)
   temporal: varies by indicator ("2024 or latest" for most charts; real house price index 1996-2025)

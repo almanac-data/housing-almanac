@@ -36,6 +36,13 @@ observed:
   final_url: https://www.huduser.gov/portal/datasets/cp.html
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261111215602/https://www.huduser.gov/portal/datasets/cp.html
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-11'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: a capture it requested from Save Page Now.'
 coverage:
   spatial: United States (nation, states, counties, places, minor civil divisions and other summary levels)
   temporal: ACS releases 2006-2008 through 2018-2022, plus older CHAS from the 2000 Census and the 2005-2007 ACS
