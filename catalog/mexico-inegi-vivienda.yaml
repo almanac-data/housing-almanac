@@ -35,6 +35,13 @@ observed:
   final_url: https://www.inegi.org.mx/temas/vivienda/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261111220122/https://www.inegi.org.mx/temas/vivienda/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-11'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: a capture it requested from Save Page Now.'
 coverage:
   spatial: Mexico (national, state, municipal)
   temporal: 1990-2025 (censuses, counts and intercensal surveys)

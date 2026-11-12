@@ -555,6 +555,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261111215602/https://www.huduser.gov/portal/datasets/cp.html",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-11",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (nation, states, counties, places, minor civil divisions and other summary levels)",
         "temporal": "ACS releases 2006-2008 through 2018-2022, plus older CHAS from the 2000 Census and the 2005-2007 ACS",
@@ -671,6 +681,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20260915230113/https://www.stat.go.jp/english/data/jyutaku/index.html",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-09-15",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "Japan (national, prefectures, municipalities)",
         "temporal": "survey years 1998-2023 listed on the English page",
@@ -724,6 +744,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261111220122/https://www.inegi.org.mx/temas/vivienda/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-11",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "Mexico (national, state, municipal)",
         "temporal": "1990-2025 (censuses, counts and intercensal surveys)",
@@ -777,6 +807,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261103052912/https://www.oecd.org/en/data/datasets/oecd-affordable-housing-database.html",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-03",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "OECD countries, OECD Key Partners and EU member states (national level)",
         "temporal": "varies by indicator (\"2024 or latest\" for most charts; real house price index 1996-2025)",
@@ -829,6 +869,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261111220638/https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_RHPI%40DF_RHPI_ALL&df%5Bag%5D=OECD.SDD.TPS",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-11",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "OECD member countries and some non-members; national and regional",
         "temporal": "varies by country",
@@ -883,6 +933,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20260928164029/https://www.statcan.gc.ca/en/subjects-start/housing",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-09-28",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "Canada (national, provinces and territories, lower geographies by program)",
         "temporal": "varies by program",
@@ -937,6 +997,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261111221209/https://www.gov.uk/government/collections/english-housing-survey",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-11",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "England",
         "temporal": "2008-09 to 2024-25 survey years listed on the collection page",
@@ -989,6 +1059,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261012092207/https://data.unhabitat.org/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-12",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "global (countries and areas; selected cities)",
         "temporal": "varies by indicator (slum series seen covering 1990-2018)",

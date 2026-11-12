@@ -36,6 +36,13 @@ observed:
   final_url: https://www.statcan.gc.ca/en/subjects-start/housing
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20260928164029/https://www.statcan.gc.ca/en/subjects-start/housing
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-09-28'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: Canada (national, provinces and territories, lower geographies by program)
   temporal: varies by program
