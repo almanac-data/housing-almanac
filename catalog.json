@@ -42,7 +42,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia",
@@ -107,7 +107,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/programs-surveys/ahs.html",
@@ -168,7 +168,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/construction/bps/index.html",
@@ -231,7 +231,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/housing/hvs/index.html",
@@ -294,7 +294,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.consumerfinance.gov/data-research/hmda/",
@@ -360,7 +360,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://ec.europa.eu/eurostat/web/housing/database",
@@ -422,7 +422,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.fhfa.gov/data/hpi",
@@ -484,7 +484,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 202,
         "final_url": "https://www.huduser.gov/portal/datasets/ahar.html",
@@ -548,7 +548,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 202,
         "final_url": "https://www.huduser.gov/portal/datasets/cp.html",
@@ -601,7 +601,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 202,
         "final_url": "https://www.huduser.gov/portal/datasets/fmr.html",
@@ -664,7 +664,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.stat.go.jp/english/data/jyutaku/index.html",
@@ -717,7 +717,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.inegi.org.mx/temas/vivienda/",
@@ -770,7 +770,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 403,
         "final_url": "https://www.oecd.org/en/data/datasets/oecd-affordable-housing-database.html",
@@ -822,7 +822,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data-explorer.oecd.org/vis?df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_RHPI%40DF_RHPI_ALL&df%5Bag%5D=OECD.SDD.TPS",
@@ -876,7 +876,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.statcan.gc.ca/en/subjects-start/housing",
@@ -930,7 +930,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.gov.uk/government/collections/english-housing-survey",
@@ -982,7 +982,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-11",
+        "checked": "2026-11-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://data.unhabitat.org/",
